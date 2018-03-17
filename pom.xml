@@ -13,7 +13,20 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  
+  <distributionmanagement>
+	  <repository>
+		 <id>deployment</id>
+		 <name>Internal Release</name>
+		 <url>http://localhost:8081/repository/SIMPLE-REL/</url>
+	  </repository>
+	  <snapshotrepository>
+		 <id>deployment</id>
+		 <name>Internal Snapshot Release</name>
+		 <url>http://localhost:8081/repository/SIMPLE-REL/</url>
+	  </snapshotrepository>
+</distributionmanagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
