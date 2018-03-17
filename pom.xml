@@ -16,12 +16,12 @@
   
   <distributionManagement>
 	  <repository>
-		 <id>deployment</id>
+		 <id>deployment-rel</id>
 		 <name>Internal Release</name>
 		 <url>http://gitserver:8081/repository/SIMPLE-REL/</url>
 	  </repository>
 	  <snapshotRepository>
-		 <id>deployment</id>
+		 <id>deployment-snap</id>
 		 <name>Internal Snapshot Release</name>
 		 <url>http://gitserver:8081/repository/SIMPLE-REL/</url>
 	  </snapshotRepository>
