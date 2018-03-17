@@ -20,11 +20,11 @@
 		 <name>Internal Release</name>
 		 <url>http://localhost:8081/repository/SIMPLE-REL/</url>
 	  </repository>
-	  <snapshotrepository>
+	  <snapshotRepository>
 		 <id>deployment</id>
 		 <name>Internal Snapshot Release</name>
 		 <url>http://localhost:8081/repository/SIMPLE-REL/</url>
-	  </snapshotrepository>
+	  </snapshotRepository>
 </distributionManagement>
   
   <dependencies>
