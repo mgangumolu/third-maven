@@ -23,7 +23,7 @@
 	  <snapshotRepository>
 		 <id>deployment-snap</id>
 		 <name>Internal Snapshot Release</name>
-		 <url>http://gitserver:8081/repository/SIMPLE-REL/</url>
+		 <url>http://gitserver:8081/repository/SIMPLE-SNAP/</url>
 	  </snapshotRepository>
 </distributionManagement>
   
